@@ -18,5 +18,10 @@
     "daspec": ">=1.0.1",
     "daspec-junit-xml-formatter": ">=1.0.0",
     "daspec-quantity-matchers": ">=1.0.0"
+  },
+  "dependencies": {
+    "ansi-colors": "^0.1.0",
+    "cowsay": "^1.0.3",
+    "reveal.js": "^3.9.0"
   }
 }

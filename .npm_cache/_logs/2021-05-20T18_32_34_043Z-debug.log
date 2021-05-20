@@ -1,0 +1,25 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'ci'
+1 verbose cli ]
+2 info using npm@6.14.12
+3 info using node@v14.16.1
+4 verbose npm-session ec7988ec6d51131f
+5 info prepare initializing installer
+6 verbose prepare starting workers
+7 verbose prepare installation prefix: C:\Users\oswin\Documents\Repos\daspec-js-npm-example
+8 verbose checkLock verifying package-lock data
+9 verbose teardown shutting down workers.
+10 info teardown Done in 0s
+11 verbose stack Error: cipm can only install packages with an existing package-lock.json or npm-shrinkwrap.json with lockfileVersion >= 1. Run an install with npm@5 or later to generate it, then try again.
+11 verbose stack     at Installer.checkLock (C:\Program Files\nodejs\node_modules\npm\node_modules\libcipm\index.js:165:9)
+11 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\libcipm\index.js:139:16
+12 verbose cwd C:\Users\oswin\Documents\Repos\daspec-js-npm-example
+13 verbose Windows_NT 10.0.19042
+14 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "ci"
+15 verbose node v14.16.1
+16 verbose npm  v6.14.12
+17 error cipm can only install packages with an existing package-lock.json or npm-shrinkwrap.json with lockfileVersion >= 1. Run an install with npm@5 or later to generate it, then try again.
+18 verbose exit [ 1, true ]
